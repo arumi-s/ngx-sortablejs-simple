@@ -11,21 +11,6 @@ jobs:
       node-version: 16
    - run: npm ci --ignore-scripts
    - run: npm run lint
- tests:
-  name: Tests
-  runs-on: ubuntu-latest
-  strategy:
-   matrix:
-    node-version: ["14.x", "16.x", "18.x"]
-   fail-fast: false
-  steps:
-   - uses: actions/checkout@v2
-   - name: Setting up Node.js (v${{ matrix.node-version }}.x)
-     uses: actions/setup-node@v2
-     with:
-      node-version: ${{ matrix.node-version }}
-   - run: npm ci --ignore-scripts
-   - run: npm run test:lib
  build:
   name: Build
   runs-on: ubuntu-latest
