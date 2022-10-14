@@ -1,0 +1,58 @@
+{
+	"name": "ngx-sortablejs-simple-app",
+	"version": "1.0.0",
+	"scripts": {
+		"ng": "ng",
+		"start": "ng serve",
+		"build": "ng build",
+		"build:lib": "ng build ngx-sortablejs-simple",
+		"publish:lib": "npm publish ./dist/ngx-sortablejs-simple",
+		"watch": "ng build --watch --configuration development",
+		"test": "ng test",
+		"test:lib": "ng test ngx-sortablejs-simple",
+		"lint": "ng lint",
+		"e2e": "ng e2e"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/arumi-s/ngx-sortablejs-simple.git"
+	},
+	"private": false,
+	"dependencies": {
+		"@angular/animations": "^14.1.0",
+		"@angular/common": "^14.1.0",
+		"@angular/compiler": "^14.1.0",
+		"@angular/core": "^14.1.0",
+		"@angular/forms": "^14.1.0",
+		"@angular/platform-browser": "^14.1.0",
+		"@angular/platform-browser-dynamic": "^14.1.0",
+		"@angular/router": "^14.1.0",
+		"rxjs": "~7.5.0",
+		"sortablejs": "^1.15.0",
+		"tslib": "^2.3.0",
+		"zone.js": "~0.11.4"
+	},
+	"devDependencies": {
+		"@angular-devkit/build-angular": "^14.1.3",
+		"@angular-eslint/builder": "14.1.2",
+		"@angular-eslint/eslint-plugin": "14.1.2",
+		"@angular-eslint/eslint-plugin-template": "14.1.2",
+		"@angular-eslint/schematics": "14.1.2",
+		"@angular-eslint/template-parser": "14.1.2",
+		"@angular/cli": "~14.1.1",
+		"@angular/compiler-cli": "^14.1.0",
+		"@types/jasmine": "~4.0.0",
+		"@types/sortablejs": "^1.15.0",
+		"@typescript-eslint/eslint-plugin": "5.37.0",
+		"@typescript-eslint/parser": "5.37.0",
+		"eslint": "^8.23.1",
+		"jasmine-core": "~4.2.0",
+		"karma": "~6.4.0",
+		"karma-chrome-launcher": "~3.1.0",
+		"karma-coverage": "~2.2.0",
+		"karma-jasmine": "~5.1.0",
+		"karma-jasmine-html-reporter": "~2.0.0",
+		"ng-packagr": "^14.1.0",
+		"typescript": "~4.7.2"
+	}
+}
