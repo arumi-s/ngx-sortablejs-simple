@@ -1,14 +1,14 @@
 {
 	"name": "ngx-sortablejs-simple",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/arumi-s/ngx-sortablejs-simple.git"
 	},
 	"peerDependencies": {
-		"@angular/common": "^14.1.0",
-		"@angular/core": "^14.1.0",
+		"@angular/common": ">=13.0.0",
+		"@angular/core": ">=13.0.0",
 		"sortablejs": "^1.15.0"
 	},
 	"dependencies": {
