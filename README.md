@@ -1,5 +1,8 @@
 # NgxSortablejsSimple
 
+[![NPM](https://img.shields.io/npm/v/ngx-sortablejs-simple)](https://www.npmjs.com/package/ngx-sortablejs-simple)
+![License](https://img.shields.io/npm/l/ngx-sortablejs-simple)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
 ## Development server
